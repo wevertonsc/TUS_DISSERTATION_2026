@@ -1,0 +1,22 @@
+# requirements.txt — Classical vs Quantum ML Comparison (Iris)
+# Tested with: qiskit 1.4.x, qiskit-machine-learning 0.8.x, qiskit-ibm-runtime 0.44.x
+
+# Core quantum
+qiskit>=1.3,<2.0
+qiskit-aer>=0.14.0
+qiskit-ibm-runtime>=0.30.0
+qiskit-machine-learning>=0.8.0
+
+# Classical ML
+scikit-learn>=1.3.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Data / viz
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Env / utils
+python-dotenv>=1.0.0
+tqdm>=4.66.0

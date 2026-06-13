@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "framework": "Qiskit ML Comparison",
+    "dataset": "Iris",
+    "num_qubits": 2,
+    "classical_algorithms": [
+      "SVM",
+      "kNN",
+      "LogReg",
+      "MLP"
+    ],
+    "quantum_algorithms": [
+      "QSVM",
+      "QkNN"
+    ]
+  },
+  "classical": {
+    "SVM": {
+      "name": "SVM (RBF Kernel)",
+      "accuracy": 0.9,
+      "f1_macro": 0.899749373433584,
+      "train_time_sec": 0.0022699999972246587,
+      "inference_time_ms": 0.43339999683666974,
+      "hyperparams": {
+        "kernel": "rbf",
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    },
+    "kNN": {
+      "name": "k-NN (k=5)",
+      "accuracy": 0.9,
+      "f1_macro": 0.899749373433584,
+      "train_time_sec": 0.0010316999978385866,
+      "inference_time_ms": 2.0262000034563243,
+      "hyperparams": {
+        "n_neighbors": 5,
+        "weights": "uniform",
+        "metric": "euclidean"
+      }
+    },
+    "LogReg": {
+      "name": "Logistic Regression",
+      "accuracy": 0.9,
+      "f1_macro": 0.899749373433584,
+      "train_time_sec": 0.021040300001914147,
+      "inference_time_ms": 0.378400000045076,
+      "hyperparams": {
+        "max_iter": 150,
+        "C": 1.0,
+        "solver": "lbfgs"
+      }
+    },
+    "MLP": {
+      "name": "MLP (64-32)",
+      "accuracy": 0.6666666666666666,
+      "f1_macro": 0.5555555555555555,
+      "train_time_sec": 0.02948879999894416,
+      "inference_time_ms": 0.3056999994441867,
+      "hyperparams": {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "activation": "relu",
+        "max_iter": 150
+      }
+    }
+  },
+  "quantum": {
+    "QSVM": {
+      "name": "QSVM (Quantum Kernel)",
+      "accuracy": 0.8,
+      "f1_macro": 0.8030910609857979,
+      "train_time_sec": 21.564514199999394,
+      "inference_time_ms": 10044.412600000214,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "convergence": []
+    },
+    "QkNN": {
+      "name": "QkNN (Quantum k=3)",
+      "accuracy": 0.9333333333333333,
+      "f1_macro": 0.9326599326599326,
+      "train_time_sec": 2.4000037228688598e-06,
+      "inference_time_ms": 19.193499996617902,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "convergence": []
+    }
+  },
+  "comparisons": [
+    {
+      "classical_model": "SVM",
+      "quantum_model": "QSVM",
+      "classical_accuracy": 0.9,
+      "quantum_accuracy": 0.8,
+      "accuracy_gap": 0.09999999999999998,
+      "quantum_better": false,
+      "classical_time_s": 0.0022699999972246587,
+      "quantum_time_s": 21.564514199999394,
+      "time_ratio": 9499.786002803763
+    },
+    {
+      "classical_model": "kNN",
+      "quantum_model": "QkNN",
+      "classical_accuracy": 0.9,
+      "quantum_accuracy": 0.9333333333333333,
+      "accuracy_gap": 0.033333333333333326,
+      "quantum_better": true,
+      "classical_time_s": 0.0010316999978385866,
+      "quantum_time_s": 2.4000037228688598e-06,
+      "time_ratio": 0.0023262612463864226
+    }
+  ],
+  "summary": {
+    "best_classical": "SVM (RBF Kernel)",
+    "best_classical_accuracy": 0.9,
+    "best_quantum": "QkNN (Quantum k=3)",
+    "best_quantum_accuracy": 0.9333333333333333,
+    "avg_classical_accuracy": 0.8416666666666667,
+    "avg_quantum_accuracy": 0.8666666666666667,
+    "total_classical_time": 0.05383079999592155,
+    "total_quantum_time": 21.564516600003117
+  }
+}
