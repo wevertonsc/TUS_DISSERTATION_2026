@@ -1,0 +1,120 @@
+21:18:52 | INFO    | Logging to file: C:\Users\wever\architecture\TUS_Thesis_2026\iris_qml_5\outputs\run_2026-06-16_21-18-52\quantum_run_2026-06-16_21-18-52.log
+21:18:52 | INFO    | RUN ID: 2026-06-16_21-18-52
+21:18:52 | INFO    | [1/4] Loading Iris dataset...
+21:18:52 | INFO    |   Samples: 150 total | Train=120 Test=30
+21:18:52 | INFO    |   Features: 4 raw → 2 qubits via PCA
+21:18:52 | INFO    | [2/4] Initializing quantum execution context...
+21:18:55 | INFO    | Connecting to IBM Quantum Platform ...
+21:19:05 | INFO    | Selected least-busy QPU: ibm_marrakesh
+21:19:07 | INFO    | Device      : ibm_marrakesh | qubits=156 | simulator=False | operational=True | pending_jobs=4
+21:19:07 | WARNING | Default transpiler stage failed ('Invalid plugin name ibm_dynamic_circuits for stage translation').
+21:19:07 | WARNING | Falling back to translation_method='translator' (static circuits — safe).
+21:19:07 | INFO    | Pass manager: ISA transpilation for ibm_marrakesh (opt_level=1)
+21:19:07 | INFO    | Sampler     : IBM Runtime SamplerV2 (mode=ibm_marrakesh, shots=1024) — local bind+transpile, job ids logged.
+21:19:07 | INFO    |   Backend label : IBM Quantum (ibm_marrakesh)
+21:19:07 | INFO    |   Is hardware   : True | Is simulator: False
+21:19:07 | WARNING | HARDWARE GUARD ACTIVE — real QPU detected.
+21:19:07 | WARNING |   Subsampling (stratified): train 120→12, test 30→6 | MAX_ITER 50→8
+21:19:07 | WARNING |   (Disable with HW_GUARD=false — but expect long queues and QPU-time cost.)
+21:19:07 | INFO    | [3/4] Running Classical vs Quantum comparison...
+21:19:07 | INFO    |   ✓ QSVM created (FidelityQuantumKernel ← sampler+pass_manager)
+21:19:07 | INFO    |   ✓ QkNN created (classical Gaussian proxy — set QKNN_QUANTUM=true for real fidelity)
+21:19:07 | INFO    |   ✓ QCL created (VQC + sampler + pass_manager)
+21:19:07 | INFO    |   ✓ VQC created (VQC + sampler + pass_manager)
+21:19:07 | INFO    |   ✓ QNN created (SamplerQNN + sampler + pass_manager)
+21:19:07 | INFO    |   ✓ QFC created (fidelity classifier — NON-variational)
+21:19:07 | INFO    |   ✓ QFE-LR created (fixed quantum embedding + classical linear — NON-variational)
+21:19:07 | INFO    | → Training QSVM (Quantum Kernel)  [executes on: QPU/backend]
+21:19:07 | INFO    |   [IBM:ibm_marrakesh] job #1 → 66 circuit(s) | qubits=156 depth=18 params=0 | total circuits=66
+21:19:09 | INFO    |       ↳ job_id=d8oqvf29m3dc738p1ce0  backend=ibm_marrakesh
+21:19:54 | INFO    |   [IBM:ibm_marrakesh] job #2 → 72 circuit(s) | qubits=156 depth=18 params=0 | total circuits=138
+21:19:55 | INFO    |       ↳ job_id=d8oqvqi9m3dc738p1cug  backend=ibm_marrakesh
+21:20:35 | INFO    |    done QSVM (Quantum Kernel) | acc=0.3333 | train=46.66s | inference=41687.2ms
+21:20:35 | INFO    | → Training QkNN (Quantum k=3)  [executes on: CLASSICAL (no backend)]
+21:20:35 | INFO    |    done QkNN (Quantum k=3) | acc=0.6667 | train=0.00s | inference=0.3ms
+21:20:35 | INFO    | → Training QCL (Quantum Circuit Learning)  [executes on: QPU/backend]
+21:20:35 | INFO    |   [IBM:ibm_marrakesh] job #3 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=150
+21:20:36 | INFO    |       ↳ job_id=d8or0568aqlc73egui70  backend=ibm_marrakesh
+21:21:12 | INFO    |   [IBM:ibm_marrakesh] job #4 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=162
+21:21:13 | INFO    |       ↳ job_id=d8or0e0q90bc73e6une0  backend=ibm_marrakesh
+21:21:38 | INFO    |   [IBM:ibm_marrakesh] job #5 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=174
+21:21:39 | INFO    |       ↳ job_id=d8or0km8aqlc73egujcg  backend=ibm_marrakesh
+21:22:54 | INFO    |   [IBM:ibm_marrakesh] job #6 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=186
+21:22:55 | INFO    |       ↳ job_id=d8or17gq90bc73e6uovg  backend=ibm_marrakesh
+21:24:42 | INFO    |   [IBM:ibm_marrakesh] job #7 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=198
+21:24:43 | INFO    |       ↳ job_id=d8or22m8aqlc73egul9g  backend=ibm_marrakesh
+21:25:04 | INFO    |   [IBM:ibm_marrakesh] job #8 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=210
+21:25:05 | INFO    |       ↳ job_id=d8or2868aqlc73eguli0  backend=ibm_marrakesh
+21:26:04 | INFO    |   [IBM:ibm_marrakesh] job #9 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=222
+21:26:04 | INFO    |       ↳ job_id=d8or2n68aqlc73egum70  backend=ibm_marrakesh
+21:27:39 | INFO    |   [IBM:ibm_marrakesh] job #10 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=234
+21:27:40 | INFO    |       ↳ job_id=d8or3euhm1is739mlq4g  backend=ibm_marrakesh
+21:28:29 | INFO    |   [IBM:ibm_marrakesh] job #11 → 6 circuit(s) | qubits=156 depth=22 params=0 | total circuits=240
+21:28:30 | INFO    |       ↳ job_id=d8or3ra9m3dc738p1im0  backend=ibm_marrakesh
+21:30:00 | INFO    |    done QCL (Quantum Circuit Learning) | acc=0.3333 | train=473.69s | inference=91431.2ms
+21:30:00 | INFO    | → Training VQC (Variational Quantum Classifier)  [executes on: QPU/backend]
+21:30:01 | INFO    |   [IBM:ibm_marrakesh] job #12 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=252
+21:30:01 | INFO    |       ↳ job_id=d8or4ie8aqlc73eguo50  backend=ibm_marrakesh
+21:31:49 | INFO    |   [IBM:ibm_marrakesh] job #13 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=264
+21:31:50 | INFO    |       ↳ job_id=d8or5dehm1is739mlsh0  backend=ibm_marrakesh
+21:32:16 | INFO    |   [IBM:ibm_marrakesh] job #14 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=276
+21:32:17 | INFO    |       ↳ job_id=d8or5k6hm1is739mlsp0  backend=ibm_marrakesh
+21:34:00 | INFO    |   [IBM:ibm_marrakesh] job #15 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=288
+21:34:01 | INFO    |       ↳ job_id=d8or6e29m3dc738p1lr0  backend=ibm_marrakesh
+21:48:03 | INFO    |   [IBM:ibm_marrakesh] job #16 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=300
+21:48:04 | INFO    |       ↳ job_id=d8ord0u8aqlc73egv2cg  backend=ibm_marrakesh
+21:48:41 | INFO    |   [IBM:ibm_marrakesh] job #17 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=312
+21:48:42 | INFO    |       ↳ job_id=d8ordae8aqlc73egv2lg  backend=ibm_marrakesh
+21:49:30 | INFO    |   [IBM:ibm_marrakesh] job #18 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=324
+21:49:31 | INFO    |       ↳ job_id=d8ordmi9m3dc738p1tsg  backend=ibm_marrakesh
+21:49:46 | INFO    |   [IBM:ibm_marrakesh] job #19 → 12 circuit(s) | qubits=156 depth=22 params=0 | total circuits=336
+21:49:47 | INFO    |       ↳ job_id=d8ordqm8aqlc73egv37g  backend=ibm_marrakesh
+21:50:08 | INFO    |   [IBM:ibm_marrakesh] job #20 → 6 circuit(s) | qubits=156 depth=22 params=0 | total circuits=342
+21:50:09 | INFO    |       ↳ job_id=d8ore00q90bc73e6v80g  backend=ibm_marrakesh
+21:50:22 | INFO    |    done VQC (Variational Quantum Classifier) | acc=0.5000 | train=1207.31s | inference=14262.8ms
+21:50:22 | INFO    | → Training QNN (Quantum Neural Network)  [executes on: QPU/backend]
+21:50:22 | INFO    |   [IBM:ibm_marrakesh] job #21 → 12 circuit(s) | qubits=156 depth=23 params=0 | total circuits=354
+21:50:23 | INFO    |       ↳ job_id=d8ore3i9m3dc738p1ua0  backend=ibm_marrakesh
+21:50:38 | INFO    |   [IBM:ibm_marrakesh] job #22 → 12 circuit(s) | qubits=156 depth=23 params=0 | total circuits=366
+21:50:39 | INFO    |       ↳ job_id=d8ore7m8aqlc73egv3n0  backend=ibm_marrakesh
+21:51:04 | INFO    |   [IBM:ibm_marrakesh] job #23 → 12 circuit(s) | qubits=156 depth=23 params=0 | total circuits=378
+21:51:05 | INFO    |       ↳ job_id=d8oree29m3dc738p1uqg  backend=ibm_marrakesh
+21:51:42 | INFO    |   [IBM:ibm_marrakesh] job #24 → 12 circuit(s) | qubits=156 depth=23 params=0 | total circuits=390
+21:51:42 | INFO    |       ↳ job_id=d8orengq90bc73e6v8u0  backend=ibm_marrakesh
+21:52:10 | INFO    |   [IBM:ibm_marrakesh] job #25 → 6 circuit(s) | qubits=156 depth=23 params=0 | total circuits=396
+21:52:11 | INFO    |       ↳ job_id=d8oreum8aqlc73egv4i0  backend=ibm_marrakesh
+21:52:44 | INFO    |    done QNN (Quantum Neural Network) | acc=0.1667 | train=107.79s | inference=33783.2ms
+21:52:44 | INFO    | → Training QFC (Quantum Fidelity, non-variational)  [executes on: QPU/backend]
+21:52:44 | INFO    |   [IBM:ibm_marrakesh] job #26 → 12 circuit(s) | qubits=156 depth=18 params=0 | total circuits=408
+21:52:45 | INFO    |       ↳ job_id=d8orf70q90bc73e6v9g0  backend=ibm_marrakesh
+21:53:10 | INFO    |   [IBM:ibm_marrakesh] job #27 → 12 circuit(s) | qubits=156 depth=18 params=0 | total circuits=420
+21:53:10 | INFO    |       ↳ job_id=d8orfdi9m3dc738p1vrg  backend=ibm_marrakesh
+21:53:45 | INFO    |   [IBM:ibm_marrakesh] job #28 → 12 circuit(s) | qubits=156 depth=18 params=0 | total circuits=432
+21:53:46 | INFO    |       ↳ job_id=d8orfm8q90bc73e6v9u0  backend=ibm_marrakesh
+21:54:11 | INFO    |   [IBM:ibm_marrakesh] job #29 → 12 circuit(s) | qubits=156 depth=18 params=0 | total circuits=444
+21:54:12 | INFO    |       ↳ job_id=d8orfsu8aqlc73egv5hg  backend=ibm_marrakesh
+21:54:47 | INFO    |   [IBM:ibm_marrakesh] job #30 → 12 circuit(s) | qubits=156 depth=18 params=0 | total circuits=456
+21:54:48 | INFO    |       ↳ job_id=d8org5uhm1is739mm8j0  backend=ibm_marrakesh
+21:55:12 | INFO    |   [IBM:ibm_marrakesh] job #31 → 12 circuit(s) | qubits=156 depth=18 params=0 | total circuits=468
+21:55:14 | INFO    |       ↳ job_id=d8orgca9m3dc738p20sg  backend=ibm_marrakesh
+21:55:51 | INFO    |    done QFC (Quantum Fidelity, non-variational) | acc=0.3333 | train=0.00s | inference=187259.5ms
+21:55:51 | INFO    | → Training QFE-LR (Quantum Embedding + Linear, non-variational)  [executes on: QPU/backend]
+21:55:51 | INFO    |   [IBM:ibm_marrakesh] job #32 → 12 circuit(s) | qubits=156 depth=16 params=0 | total circuits=480
+21:55:52 | INFO    |       ↳ job_id=d8orglq9m3dc738p217g  backend=ibm_marrakesh
+21:56:14 | INFO    |   [IBM:ibm_marrakesh] job #33 → 6 circuit(s) | qubits=156 depth=16 params=0 | total circuits=486
+21:56:15 | INFO    |       ↳ job_id=d8orgrgq90bc73e6vb70  backend=ibm_marrakesh
+21:56:51 | INFO    |    done QFE-LR (Quantum Embedding + Linear, non-variational) | acc=0.1667 | train=22.95s | inference=36965.1ms
+21:56:51 | INFO    | ================================================================================
+21:56:51 | INFO    | EXECUTION PROOF (from LoggingSamplerV2)
+21:56:51 | INFO    |   Backend           : IBM Quantum (ibm_marrakesh)
+21:56:51 | INFO    |   Ran on hardware   : True
+21:56:51 | INFO    |   Jobs submitted    : 33
+21:56:51 | INFO    |   Jobs failed       : 0
+21:56:51 | INFO    |   Circuits submitted: 486
+21:56:51 | INFO    |   Sample job ids    : ['d8oqvf29m3dc738p1ce0', 'd8oqvqi9m3dc738p1cug', 'd8or0568aqlc73egui70', 'd8or0e0q90bc73e6une0', 'd8or0km8aqlc73egujcg', 'd8or17gq90bc73e6uovg', 'd8or22m8aqlc73egul9g', 'd8or2868aqlc73eguli0', 'd8or2n68aqlc73egum70', 'd8or3euhm1is739mlq4g']
+21:56:51 | INFO    |   → verify at https://quantum.ibm.com/jobs
+21:56:51 | INFO    | ================================================================================
+21:56:51 | INFO    | [4/4] Generating comparison charts...
+21:56:55 | INFO    | ✓ Comparison completed in 2283.1s
+21:56:55 | INFO    | Run folder : C:\Users\wever\architecture\TUS_Thesis_2026\iris_qml_5\outputs\run_2026-06-16_21-18-52
+21:56:55 | INFO    | Log file   : C:\Users\wever\architecture\TUS_Thesis_2026\iris_qml_5\outputs\run_2026-06-16_21-18-52\quantum_run_2026-06-16_21-18-52.log

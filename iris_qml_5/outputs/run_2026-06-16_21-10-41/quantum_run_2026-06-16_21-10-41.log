@@ -1,0 +1,61 @@
+21:10:41 | INFO    | Logging to file: C:\Users\wever\architecture\TUS_Thesis_2026\iris_qml_5\outputs\run_2026-06-16_21-10-41\quantum_run_2026-06-16_21-10-41.log
+21:10:41 | INFO    | RUN ID: 2026-06-16_21-10-41
+21:10:41 | INFO    | [1/4] Loading Iris dataset...
+21:10:41 | INFO    |   Samples: 150 total | Train=120 Test=30
+21:10:41 | INFO    |   Features: 4 raw → 2 qubits via PCA
+21:10:41 | INFO    | [2/4] Initializing quantum execution context...
+21:10:41 | INFO    | Backend     : StatevectorSampler (exact, noiseless, LOCAL)
+21:10:41 | INFO    |   Backend label : StatevectorSampler (exact / noiseless)
+21:10:41 | INFO    |   Is hardware   : False | Is simulator: True
+21:10:41 | INFO    | [3/4] Running Classical vs Quantum comparison...
+21:10:41 | INFO    |   ✓ QSVM created (FidelityQuantumKernel ← sampler+pass_manager)
+21:10:41 | INFO    |   ✓ QkNN created (classical Gaussian proxy — set QKNN_QUANTUM=true for real fidelity)
+21:10:41 | INFO    |   ✓ QCL created (VQC + sampler + pass_manager)
+21:10:41 | INFO    |   ✓ VQC created (VQC + sampler + pass_manager)
+21:10:41 | INFO    |   ✓ QNN created (SamplerQNN + sampler + pass_manager)
+21:10:41 | INFO    |   ✓ QFC created (fidelity classifier — NON-variational)
+21:10:41 | INFO    |   ✓ QFE-LR created (fixed quantum embedding + classical linear — NON-variational)
+21:10:42 | INFO    | → Training QSVM (Quantum Kernel)  [executes on: QPU/backend]
+21:12:11 | INFO    |    done QSVM (Quantum Kernel) | acc=0.8000 | train=68.10s | inference=21123.6ms
+21:12:11 | INFO    | → Training QkNN (Quantum k=3)  [executes on: CLASSICAL (no backend)]
+21:12:11 | INFO    |    done QkNN (Quantum k=3) | acc=0.9333 | train=0.00s | inference=17.7ms
+21:12:11 | INFO    | → Training QCL (Quantum Circuit Learning)  [executes on: QPU/backend]
+21:12:24 | INFO    |   [LOCAL-SV] job #20 → 120 circuit(s) | qubits=2 depth=3 params=6 | total circuits=12900
+21:12:24 | INFO    |       ↳ job_id=106eb342-1afb-4145-aec8-24db56afc3ec  backend=qiskit
+21:12:37 | INFO    |   [LOCAL-SV] job #40 → 120 circuit(s) | qubits=2 depth=3 params=6 | total circuits=15300
+21:12:37 | INFO    |       ↳ job_id=e6a231f9-3abf-4ae5-aadb-e2e79358093f  backend=qiskit
+21:12:46 | INFO    |    done QCL (Quantum Circuit Learning) | acc=0.5333 | train=35.14s | inference=161.0ms
+21:12:46 | INFO    | → Training VQC (Variational Quantum Classifier)  [executes on: QPU/backend]
+21:12:50 | INFO    |   [LOCAL-SV] job #60 → 120 circuit(s) | qubits=2 depth=3 params=6 | total circuits=17610
+21:12:50 | INFO    |       ↳ job_id=213056cc-c1d3-4d40-a568-84824a6b4816  backend=qiskit
+21:13:03 | INFO    |   [LOCAL-SV] job #80 → 120 circuit(s) | qubits=2 depth=3 params=6 | total circuits=20010
+21:13:03 | INFO    |       ↳ job_id=38ecc6de-6607-41cb-b07c-c266e9a6695b  backend=qiskit
+21:13:19 | INFO    |   [LOCAL-SV] job #100 → 120 circuit(s) | qubits=2 depth=3 params=6 | total circuits=22410
+21:13:19 | INFO    |       ↳ job_id=72c427d4-503e-46ec-be19-b4eff0b3fd77  backend=qiskit
+21:13:22 | INFO    |    done VQC (Variational Quantum Classifier) | acc=0.5333 | train=35.42s | inference=166.8ms
+21:13:22 | INFO    | → Training QNN (Quantum Neural Network)  [executes on: QPU/backend]
+21:13:32 | INFO    |   [LOCAL-SV] job #120 → 120 circuit(s) | qubits=2 depth=3 params=10 | total circuits=24720
+21:13:32 | INFO    |       ↳ job_id=56cd8410-0789-46d7-9d57-0402c05ad2bf  backend=qiskit
+21:13:40 | INFO    |    done QNN (Quantum Neural Network) | acc=0.4333 | train=18.09s | inference=178.5ms
+21:13:40 | INFO    | → Training QFC (Quantum Fidelity, non-variational)  [executes on: QPU/backend]
+21:13:46 | INFO    |   [LOCAL-SV] job #140 → 120 circuit(s) | qubits=2 depth=3 params=4 | total circuits=27030
+21:13:46 | INFO    |       ↳ job_id=c8a41117-7919-49b9-80d8-2336854e2f07  backend=qiskit
+21:14:00 | INFO    |   [LOCAL-SV] job #160 → 120 circuit(s) | qubits=2 depth=3 params=4 | total circuits=29430
+21:14:00 | INFO    |       ↳ job_id=cea6666d-2c59-470a-a98d-0cfefcd1b135  backend=qiskit
+21:14:01 | INFO    |    done QFC (Quantum Fidelity, non-variational) | acc=0.6333 | train=0.00s | inference=20546.5ms
+21:14:01 | INFO    | → Training QFE-LR (Quantum Embedding + Linear, non-variational)  [executes on: QPU/backend]
+21:14:01 | INFO    |    done QFE-LR (Quantum Embedding + Linear, non-variational) | acc=0.4667 | train=0.56s | inference=139.6ms
+21:14:01 | INFO    | ================================================================================
+21:14:01 | INFO    | EXECUTION PROOF (from LoggingSamplerV2)
+21:14:01 | INFO    |   Backend           : StatevectorSampler (exact / noiseless)
+21:14:01 | INFO    |   Ran on hardware   : False
+21:14:01 | INFO    |   Jobs submitted    : 162
+21:14:01 | INFO    |   Jobs failed       : 0
+21:14:01 | INFO    |   Circuits submitted: 29580
+21:14:01 | INFO    |   Sample job ids    : ['5a322642-16b5-4107-bdec-224c958d1d6b', '9d2774e1-0123-406c-a137-54dff6f5babd', 'ce1dbdf2-e713-4726-b02c-22fae9be78dd', '032b9dca-ae5e-400d-a30d-2c488e8988d3', 'c8fb74e5-4d4b-4060-8adf-66bfe4a0f774', '85f6dd90-4c1a-4a68-b08b-e5fdae7c5801', '4f38f9ac-76d1-4dcf-ab0c-5a5e7dbf3524', 'cf843e29-a910-4a75-b2a7-b1264139ec36', '1cc848e5-2704-45f9-af03-068370250786', '153b5f9e-7b7f-4cfc-b983-d0d42468fd8b']
+21:14:01 | INFO    |   → verify at https://quantum.ibm.com/jobs
+21:14:01 | INFO    | ================================================================================
+21:14:01 | INFO    | [4/4] Generating comparison charts...
+21:14:10 | INFO    | ✓ Comparison completed in 208.7s
+21:14:10 | INFO    | Run folder : C:\Users\wever\architecture\TUS_Thesis_2026\iris_qml_5\outputs\run_2026-06-16_21-10-41
+21:14:10 | INFO    | Log file   : C:\Users\wever\architecture\TUS_Thesis_2026\iris_qml_5\outputs\run_2026-06-16_21-10-41\quantum_run_2026-06-16_21-10-41.log

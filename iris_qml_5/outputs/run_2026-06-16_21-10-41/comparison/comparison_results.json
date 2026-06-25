@@ -1,0 +1,1672 @@
+{
+  "meta": {
+    "framework": "Qiskit ML Comparison",
+    "dataset": "Iris",
+    "num_qubits": 2,
+    "classical_algorithms": [
+      "SVM",
+      "kNN",
+      "LogReg",
+      "MLP"
+    ],
+    "quantum_algorithms": [
+      "QSVM",
+      "QkNN",
+      "QCL",
+      "VQC",
+      "QNN",
+      "QFC",
+      "QFE-LR"
+    ],
+    "quantum_failed": {},
+    "execution": {
+      "label": "LOCAL-SV",
+      "submitted_jobs": 162,
+      "submitted_circuits": 29580,
+      "failed_jobs": 0,
+      "sample_job_ids": [
+        "5a322642-16b5-4107-bdec-224c958d1d6b",
+        "9d2774e1-0123-406c-a137-54dff6f5babd",
+        "ce1dbdf2-e713-4726-b02c-22fae9be78dd",
+        "032b9dca-ae5e-400d-a30d-2c488e8988d3",
+        "c8fb74e5-4d4b-4060-8adf-66bfe4a0f774",
+        "85f6dd90-4c1a-4a68-b08b-e5fdae7c5801",
+        "4f38f9ac-76d1-4dcf-ab0c-5a5e7dbf3524",
+        "cf843e29-a910-4a75-b2a7-b1264139ec36",
+        "1cc848e5-2704-45f9-af03-068370250786",
+        "153b5f9e-7b7f-4cfc-b983-d0d42468fd8b"
+      ],
+      "job_records": [
+        {
+          "idx": 1,
+          "t": 0.3715813159942627,
+          "n_circuits": 7140,
+          "cumulative_circuits": 7140,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 2,
+          "t": 68.3397958278656,
+          "n_circuits": 3600,
+          "cumulative_circuits": 10740,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 3,
+          "t": 89.41067481040955,
+          "n_circuits": 120,
+          "cumulative_circuits": 10860,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 4,
+          "t": 90.16770362854004,
+          "n_circuits": 120,
+          "cumulative_circuits": 10980,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 5,
+          "t": 90.97050356864929,
+          "n_circuits": 120,
+          "cumulative_circuits": 11100,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 6,
+          "t": 91.90331530570984,
+          "n_circuits": 120,
+          "cumulative_circuits": 11220,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 7,
+          "t": 92.68575525283813,
+          "n_circuits": 120,
+          "cumulative_circuits": 11340,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 8,
+          "t": 93.32567381858826,
+          "n_circuits": 120,
+          "cumulative_circuits": 11460,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 9,
+          "t": 93.9802041053772,
+          "n_circuits": 120,
+          "cumulative_circuits": 11580,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 10,
+          "t": 94.62682223320007,
+          "n_circuits": 120,
+          "cumulative_circuits": 11700,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 11,
+          "t": 95.3705575466156,
+          "n_circuits": 120,
+          "cumulative_circuits": 11820,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 12,
+          "t": 96.47202157974243,
+          "n_circuits": 120,
+          "cumulative_circuits": 11940,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 13,
+          "t": 97.4436047077179,
+          "n_circuits": 120,
+          "cumulative_circuits": 12060,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 14,
+          "t": 98.27600812911987,
+          "n_circuits": 120,
+          "cumulative_circuits": 12180,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 15,
+          "t": 98.98421716690063,
+          "n_circuits": 120,
+          "cumulative_circuits": 12300,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 16,
+          "t": 99.6884458065033,
+          "n_circuits": 120,
+          "cumulative_circuits": 12420,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 17,
+          "t": 100.53988099098206,
+          "n_circuits": 120,
+          "cumulative_circuits": 12540,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 18,
+          "t": 101.33698391914368,
+          "n_circuits": 120,
+          "cumulative_circuits": 12660,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 19,
+          "t": 102.01960849761963,
+          "n_circuits": 120,
+          "cumulative_circuits": 12780,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 20,
+          "t": 102.65440511703491,
+          "n_circuits": 120,
+          "cumulative_circuits": 12900,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 21,
+          "t": 103.36193609237671,
+          "n_circuits": 120,
+          "cumulative_circuits": 13020,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 22,
+          "t": 104.02136850357056,
+          "n_circuits": 120,
+          "cumulative_circuits": 13140,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 23,
+          "t": 104.68902683258057,
+          "n_circuits": 120,
+          "cumulative_circuits": 13260,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 24,
+          "t": 105.32867765426636,
+          "n_circuits": 120,
+          "cumulative_circuits": 13380,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 25,
+          "t": 105.95687961578369,
+          "n_circuits": 120,
+          "cumulative_circuits": 13500,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 26,
+          "t": 106.57910299301147,
+          "n_circuits": 120,
+          "cumulative_circuits": 13620,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 27,
+          "t": 107.20396995544434,
+          "n_circuits": 120,
+          "cumulative_circuits": 13740,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 28,
+          "t": 107.89648866653442,
+          "n_circuits": 120,
+          "cumulative_circuits": 13860,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 29,
+          "t": 108.52161931991577,
+          "n_circuits": 120,
+          "cumulative_circuits": 13980,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 30,
+          "t": 109.15446281433105,
+          "n_circuits": 120,
+          "cumulative_circuits": 14100,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 31,
+          "t": 109.78569960594177,
+          "n_circuits": 120,
+          "cumulative_circuits": 14220,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 32,
+          "t": 110.42270088195801,
+          "n_circuits": 120,
+          "cumulative_circuits": 14340,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 33,
+          "t": 111.09093165397644,
+          "n_circuits": 120,
+          "cumulative_circuits": 14460,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 34,
+          "t": 111.88400483131409,
+          "n_circuits": 120,
+          "cumulative_circuits": 14580,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 35,
+          "t": 112.65591216087341,
+          "n_circuits": 120,
+          "cumulative_circuits": 14700,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 36,
+          "t": 113.32270669937134,
+          "n_circuits": 120,
+          "cumulative_circuits": 14820,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 37,
+          "t": 113.96084523200989,
+          "n_circuits": 120,
+          "cumulative_circuits": 14940,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 38,
+          "t": 114.68577075004578,
+          "n_circuits": 120,
+          "cumulative_circuits": 15060,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 39,
+          "t": 115.3136932849884,
+          "n_circuits": 120,
+          "cumulative_circuits": 15180,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 40,
+          "t": 115.93420648574829,
+          "n_circuits": 120,
+          "cumulative_circuits": 15300,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 41,
+          "t": 116.57222628593445,
+          "n_circuits": 120,
+          "cumulative_circuits": 15420,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 42,
+          "t": 117.18927526473999,
+          "n_circuits": 120,
+          "cumulative_circuits": 15540,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 43,
+          "t": 117.81993460655212,
+          "n_circuits": 120,
+          "cumulative_circuits": 15660,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 44,
+          "t": 118.4852135181427,
+          "n_circuits": 120,
+          "cumulative_circuits": 15780,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 45,
+          "t": 119.12977480888367,
+          "n_circuits": 120,
+          "cumulative_circuits": 15900,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 46,
+          "t": 119.76486563682556,
+          "n_circuits": 120,
+          "cumulative_circuits": 16020,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 47,
+          "t": 120.40290999412537,
+          "n_circuits": 120,
+          "cumulative_circuits": 16140,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 48,
+          "t": 121.03226351737976,
+          "n_circuits": 120,
+          "cumulative_circuits": 16260,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 49,
+          "t": 121.8848967552185,
+          "n_circuits": 120,
+          "cumulative_circuits": 16380,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 50,
+          "t": 122.62205457687378,
+          "n_circuits": 120,
+          "cumulative_circuits": 16500,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 51,
+          "t": 123.28243398666382,
+          "n_circuits": 120,
+          "cumulative_circuits": 16620,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 52,
+          "t": 123.91984343528748,
+          "n_circuits": 120,
+          "cumulative_circuits": 16740,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 53,
+          "t": 124.54545664787292,
+          "n_circuits": 30,
+          "cumulative_circuits": 16770,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 54,
+          "t": 124.71929264068604,
+          "n_circuits": 120,
+          "cumulative_circuits": 16890,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 55,
+          "t": 125.36446142196655,
+          "n_circuits": 120,
+          "cumulative_circuits": 17010,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 56,
+          "t": 125.9861388206482,
+          "n_circuits": 120,
+          "cumulative_circuits": 17130,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 57,
+          "t": 126.60815191268921,
+          "n_circuits": 120,
+          "cumulative_circuits": 17250,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 58,
+          "t": 127.22981309890747,
+          "n_circuits": 120,
+          "cumulative_circuits": 17370,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 59,
+          "t": 127.89538168907166,
+          "n_circuits": 120,
+          "cumulative_circuits": 17490,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 60,
+          "t": 128.59865283966064,
+          "n_circuits": 120,
+          "cumulative_circuits": 17610,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 61,
+          "t": 129.2206552028656,
+          "n_circuits": 120,
+          "cumulative_circuits": 17730,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 62,
+          "t": 129.86346077919006,
+          "n_circuits": 120,
+          "cumulative_circuits": 17850,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 63,
+          "t": 130.49408078193665,
+          "n_circuits": 120,
+          "cumulative_circuits": 17970,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 64,
+          "t": 131.14156317710876,
+          "n_circuits": 120,
+          "cumulative_circuits": 18090,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 65,
+          "t": 131.78200244903564,
+          "n_circuits": 120,
+          "cumulative_circuits": 18210,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 66,
+          "t": 132.42767333984375,
+          "n_circuits": 120,
+          "cumulative_circuits": 18330,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 67,
+          "t": 133.21813130378723,
+          "n_circuits": 120,
+          "cumulative_circuits": 18450,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 68,
+          "t": 134.01978516578674,
+          "n_circuits": 120,
+          "cumulative_circuits": 18570,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 69,
+          "t": 134.68084573745728,
+          "n_circuits": 120,
+          "cumulative_circuits": 18690,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 70,
+          "t": 135.3327136039734,
+          "n_circuits": 120,
+          "cumulative_circuits": 18810,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 71,
+          "t": 136.04809069633484,
+          "n_circuits": 120,
+          "cumulative_circuits": 18930,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 72,
+          "t": 136.66057920455933,
+          "n_circuits": 120,
+          "cumulative_circuits": 19050,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 73,
+          "t": 137.31334590911865,
+          "n_circuits": 120,
+          "cumulative_circuits": 19170,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 74,
+          "t": 137.98687505722046,
+          "n_circuits": 120,
+          "cumulative_circuits": 19290,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 75,
+          "t": 138.6696014404297,
+          "n_circuits": 120,
+          "cumulative_circuits": 19410,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 76,
+          "t": 139.3103687763214,
+          "n_circuits": 120,
+          "cumulative_circuits": 19530,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 77,
+          "t": 139.96382236480713,
+          "n_circuits": 120,
+          "cumulative_circuits": 19650,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 78,
+          "t": 140.58272504806519,
+          "n_circuits": 120,
+          "cumulative_circuits": 19770,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 79,
+          "t": 141.24856805801392,
+          "n_circuits": 120,
+          "cumulative_circuits": 19890,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 80,
+          "t": 141.90646266937256,
+          "n_circuits": 120,
+          "cumulative_circuits": 20010,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 81,
+          "t": 142.66050004959106,
+          "n_circuits": 120,
+          "cumulative_circuits": 20130,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 82,
+          "t": 143.4480321407318,
+          "n_circuits": 120,
+          "cumulative_circuits": 20250,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 83,
+          "t": 144.16305828094482,
+          "n_circuits": 120,
+          "cumulative_circuits": 20370,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 84,
+          "t": 144.81760120391846,
+          "n_circuits": 120,
+          "cumulative_circuits": 20490,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 85,
+          "t": 145.47412848472595,
+          "n_circuits": 120,
+          "cumulative_circuits": 20610,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 86,
+          "t": 146.1100993156433,
+          "n_circuits": 120,
+          "cumulative_circuits": 20730,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 87,
+          "t": 146.7330927848816,
+          "n_circuits": 120,
+          "cumulative_circuits": 20850,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 88,
+          "t": 147.38045692443848,
+          "n_circuits": 120,
+          "cumulative_circuits": 20970,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 89,
+          "t": 148.01794600486755,
+          "n_circuits": 120,
+          "cumulative_circuits": 21090,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 90,
+          "t": 148.7305588722229,
+          "n_circuits": 120,
+          "cumulative_circuits": 21210,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 91,
+          "t": 149.60345268249512,
+          "n_circuits": 120,
+          "cumulative_circuits": 21330,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 92,
+          "t": 150.5241503715515,
+          "n_circuits": 120,
+          "cumulative_circuits": 21450,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 93,
+          "t": 151.31430912017822,
+          "n_circuits": 120,
+          "cumulative_circuits": 21570,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 94,
+          "t": 152.1073591709137,
+          "n_circuits": 120,
+          "cumulative_circuits": 21690,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 95,
+          "t": 152.9605348110199,
+          "n_circuits": 120,
+          "cumulative_circuits": 21810,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 96,
+          "t": 153.92047262191772,
+          "n_circuits": 120,
+          "cumulative_circuits": 21930,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 97,
+          "t": 154.894287109375,
+          "n_circuits": 120,
+          "cumulative_circuits": 22050,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 98,
+          "t": 155.74733662605286,
+          "n_circuits": 120,
+          "cumulative_circuits": 22170,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 99,
+          "t": 156.63606119155884,
+          "n_circuits": 120,
+          "cumulative_circuits": 22290,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 100,
+          "t": 157.4566593170166,
+          "n_circuits": 120,
+          "cumulative_circuits": 22410,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 101,
+          "t": 158.16151666641235,
+          "n_circuits": 120,
+          "cumulative_circuits": 22530,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 102,
+          "t": 158.888441324234,
+          "n_circuits": 120,
+          "cumulative_circuits": 22650,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 103,
+          "t": 159.50562405586243,
+          "n_circuits": 120,
+          "cumulative_circuits": 22770,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 104,
+          "t": 160.14258646965027,
+          "n_circuits": 30,
+          "cumulative_circuits": 22800,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 105,
+          "t": 160.32171511650085,
+          "n_circuits": 120,
+          "cumulative_circuits": 22920,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 106,
+          "t": 161.01519870758057,
+          "n_circuits": 120,
+          "cumulative_circuits": 23040,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 107,
+          "t": 161.6889452934265,
+          "n_circuits": 120,
+          "cumulative_circuits": 23160,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 108,
+          "t": 162.35017442703247,
+          "n_circuits": 120,
+          "cumulative_circuits": 23280,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 109,
+          "t": 163.0162718296051,
+          "n_circuits": 120,
+          "cumulative_circuits": 23400,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 110,
+          "t": 163.6823537349701,
+          "n_circuits": 120,
+          "cumulative_circuits": 23520,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 111,
+          "t": 164.5447587966919,
+          "n_circuits": 120,
+          "cumulative_circuits": 23640,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 112,
+          "t": 165.39383339881897,
+          "n_circuits": 120,
+          "cumulative_circuits": 23760,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 113,
+          "t": 166.11177444458008,
+          "n_circuits": 120,
+          "cumulative_circuits": 23880,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 114,
+          "t": 166.85023045539856,
+          "n_circuits": 120,
+          "cumulative_circuits": 24000,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 115,
+          "t": 167.49980306625366,
+          "n_circuits": 120,
+          "cumulative_circuits": 24120,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 116,
+          "t": 168.17979836463928,
+          "n_circuits": 120,
+          "cumulative_circuits": 24240,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 117,
+          "t": 168.84089159965515,
+          "n_circuits": 120,
+          "cumulative_circuits": 24360,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 118,
+          "t": 169.50843119621277,
+          "n_circuits": 120,
+          "cumulative_circuits": 24480,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 119,
+          "t": 170.19416046142578,
+          "n_circuits": 120,
+          "cumulative_circuits": 24600,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 120,
+          "t": 170.85777521133423,
+          "n_circuits": 120,
+          "cumulative_circuits": 24720,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 121,
+          "t": 171.54774403572083,
+          "n_circuits": 120,
+          "cumulative_circuits": 24840,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 122,
+          "t": 172.22195625305176,
+          "n_circuits": 120,
+          "cumulative_circuits": 24960,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 123,
+          "t": 172.90707898139954,
+          "n_circuits": 120,
+          "cumulative_circuits": 25080,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 124,
+          "t": 173.76305103302002,
+          "n_circuits": 120,
+          "cumulative_circuits": 25200,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 125,
+          "t": 174.5568175315857,
+          "n_circuits": 120,
+          "cumulative_circuits": 25320,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 126,
+          "t": 175.4007797241211,
+          "n_circuits": 120,
+          "cumulative_circuits": 25440,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 127,
+          "t": 176.31191682815552,
+          "n_circuits": 120,
+          "cumulative_circuits": 25560,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 128,
+          "t": 177.0578474998474,
+          "n_circuits": 120,
+          "cumulative_circuits": 25680,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 129,
+          "t": 177.73867774009705,
+          "n_circuits": 120,
+          "cumulative_circuits": 25800,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 130,
+          "t": 178.4159595966339,
+          "n_circuits": 30,
+          "cumulative_circuits": 25830,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 131,
+          "t": 178.61144876480103,
+          "n_circuits": 120,
+          "cumulative_circuits": 25950,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 132,
+          "t": 179.2917993068695,
+          "n_circuits": 120,
+          "cumulative_circuits": 26070,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 133,
+          "t": 179.95102286338806,
+          "n_circuits": 120,
+          "cumulative_circuits": 26190,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 134,
+          "t": 180.60231804847717,
+          "n_circuits": 120,
+          "cumulative_circuits": 26310,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 135,
+          "t": 181.34379649162292,
+          "n_circuits": 120,
+          "cumulative_circuits": 26430,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 136,
+          "t": 181.97261500358582,
+          "n_circuits": 120,
+          "cumulative_circuits": 26550,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 137,
+          "t": 182.60013556480408,
+          "n_circuits": 120,
+          "cumulative_circuits": 26670,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 138,
+          "t": 183.24050331115723,
+          "n_circuits": 120,
+          "cumulative_circuits": 26790,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 139,
+          "t": 183.89298129081726,
+          "n_circuits": 120,
+          "cumulative_circuits": 26910,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 140,
+          "t": 184.53637981414795,
+          "n_circuits": 120,
+          "cumulative_circuits": 27030,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 141,
+          "t": 185.25554251670837,
+          "n_circuits": 120,
+          "cumulative_circuits": 27150,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 142,
+          "t": 186.0947825908661,
+          "n_circuits": 120,
+          "cumulative_circuits": 27270,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 143,
+          "t": 186.8476767539978,
+          "n_circuits": 120,
+          "cumulative_circuits": 27390,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 144,
+          "t": 187.5213828086853,
+          "n_circuits": 120,
+          "cumulative_circuits": 27510,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 145,
+          "t": 188.24931836128235,
+          "n_circuits": 120,
+          "cumulative_circuits": 27630,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 146,
+          "t": 188.8842852115631,
+          "n_circuits": 120,
+          "cumulative_circuits": 27750,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 147,
+          "t": 189.5154778957367,
+          "n_circuits": 120,
+          "cumulative_circuits": 27870,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 148,
+          "t": 190.1490342617035,
+          "n_circuits": 120,
+          "cumulative_circuits": 27990,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 149,
+          "t": 190.82252860069275,
+          "n_circuits": 120,
+          "cumulative_circuits": 28110,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 150,
+          "t": 191.46031093597412,
+          "n_circuits": 120,
+          "cumulative_circuits": 28230,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 151,
+          "t": 192.1069540977478,
+          "n_circuits": 120,
+          "cumulative_circuits": 28350,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 152,
+          "t": 192.74996542930603,
+          "n_circuits": 120,
+          "cumulative_circuits": 28470,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 153,
+          "t": 193.4167206287384,
+          "n_circuits": 120,
+          "cumulative_circuits": 28590,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 154,
+          "t": 194.08811902999878,
+          "n_circuits": 120,
+          "cumulative_circuits": 28710,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 155,
+          "t": 194.8017315864563,
+          "n_circuits": 120,
+          "cumulative_circuits": 28830,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 156,
+          "t": 195.4357783794403,
+          "n_circuits": 120,
+          "cumulative_circuits": 28950,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 157,
+          "t": 196.09049034118652,
+          "n_circuits": 120,
+          "cumulative_circuits": 29070,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 158,
+          "t": 196.8625566959381,
+          "n_circuits": 120,
+          "cumulative_circuits": 29190,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 159,
+          "t": 197.67943716049194,
+          "n_circuits": 120,
+          "cumulative_circuits": 29310,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 160,
+          "t": 198.42986178398132,
+          "n_circuits": 120,
+          "cumulative_circuits": 29430,
+          "depth": 3,
+          "qubits": 2
+        },
+        {
+          "idx": 161,
+          "t": 199.16542148590088,
+          "n_circuits": 120,
+          "cumulative_circuits": 29550,
+          "depth": 2,
+          "qubits": 2
+        },
+        {
+          "idx": 162,
+          "t": 199.72480058670044,
+          "n_circuits": 30,
+          "cumulative_circuits": 29580,
+          "depth": 2,
+          "qubits": 2
+        }
+      ],
+      "backend_label": "StatevectorSampler (exact / noiseless)",
+      "is_hardware": false,
+      "is_simulator": true
+    }
+  },
+  "classical": {
+    "SVM": {
+      "name": "SVM (RBF Kernel)",
+      "accuracy": 0.9,
+      "f1_macro": 0.899749373433584,
+      "train_time_sec": 0.003431300021475181,
+      "inference_time_ms": 1.062600000295788,
+      "hyperparams": {
+        "kernel": "rbf",
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    },
+    "kNN": {
+      "name": "k-NN (k=5)",
+      "accuracy": 0.9,
+      "f1_macro": 0.899749373433584,
+      "train_time_sec": 0.0047158999950625,
+      "inference_time_ms": 5.415899999206886,
+      "hyperparams": {
+        "n_neighbors": 5,
+        "weights": "uniform",
+        "metric": "euclidean"
+      }
+    },
+    "LogReg": {
+      "name": "Logistic Regression",
+      "accuracy": 0.9,
+      "f1_macro": 0.899749373433584,
+      "train_time_sec": 0.013083199999528006,
+      "inference_time_ms": 0.31430000672116876,
+      "hyperparams": {
+        "max_iter": 50,
+        "C": 1.0,
+        "solver": "lbfgs"
+      }
+    },
+    "MLP": {
+      "name": "MLP (64-32)",
+      "accuracy": 0.6666666666666666,
+      "f1_macro": 0.5555555555555555,
+      "train_time_sec": 0.027281500020762905,
+      "inference_time_ms": 0.2810999867506325,
+      "hyperparams": {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "activation": "relu",
+        "max_iter": 50
+      }
+    }
+  },
+  "quantum": {
+    "QSVM": {
+      "name": "QSVM (Quantum Kernel)",
+      "accuracy": 0.8,
+      "f1_macro": 0.8030910609857979,
+      "train_time_sec": 68.10287729999982,
+      "inference_time_ms": 21123.594700009562,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "ran_on_backend": true,
+      "is_variational": false,
+      "convergence": []
+    },
+    "QkNN": {
+      "name": "QkNN (Quantum k=3)",
+      "accuracy": 0.9333333333333333,
+      "f1_macro": 0.9326599326599326,
+      "train_time_sec": 6.099988240748644e-06,
+      "inference_time_ms": 17.748699989169836,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "ran_on_backend": false,
+      "is_variational": false,
+      "convergence": []
+    },
+    "QCL": {
+      "name": "QCL (Quantum Circuit Learning)",
+      "accuracy": 0.5333333333333333,
+      "f1_macro": 0.4266666666666667,
+      "train_time_sec": 35.136455300002126,
+      "inference_time_ms": 161.0408999840729,
+      "num_qubits": 2,
+      "circuit_depth": 2,
+      "num_parameters": 4,
+      "ran_on_backend": true,
+      "is_variational": true,
+      "convergence": [
+        11.648545543398948,
+        12.090534545448486,
+        11.796724070408981,
+        11.577030355687123,
+        11.58180084701565,
+        11.492216214542394,
+        11.606366922479177,
+        11.577161531356053,
+        11.485153822677502,
+        11.476565089915148,
+        11.473738120993458,
+        11.46674760383558,
+        11.478220169831506,
+        11.474538819578216,
+        11.481973633794826,
+        11.466247767181136,
+        11.46902835831389,
+        11.467059216745543,
+        11.466224483465531,
+        11.466243039535788,
+        11.468302451886627,
+        11.464426996569044,
+        11.46531932979031,
+        11.469868649656535,
+        11.467475643780253,
+        11.466380626334743,
+        11.46336709573304,
+        11.468596524017531,
+        11.467305059031867,
+        11.46934281327166,
+        11.465326283142778,
+        11.469214057576666,
+        11.460735089602355,
+        11.468071778833473,
+        11.465103439042588,
+        11.464385473050989,
+        11.463568621276588,
+        11.465949144299548,
+        11.463919288345524,
+        11.465886525062846,
+        11.469733948011868,
+        11.468760954053968,
+        11.466512220354,
+        11.462805971184716,
+        11.466861985934088,
+        11.46872208621401,
+        11.468662367308117,
+        11.467792038715544,
+        11.46479106514611,
+        11.460051640775669
+      ]
+    },
+    "VQC": {
+      "name": "VQC (Variational Quantum Classifier)",
+      "accuracy": 0.5333333333333333,
+      "f1_macro": 0.4266666666666667,
+      "train_time_sec": 35.4242840000079,
+      "inference_time_ms": 166.81140000582673,
+      "num_qubits": 2,
+      "circuit_depth": 2,
+      "num_parameters": 4,
+      "ran_on_backend": true,
+      "is_variational": true,
+      "convergence": [
+        11.717308527892147,
+        12.128039547508717,
+        11.77555484340059,
+        11.564884988097793,
+        11.572611197472868,
+        11.483499695179269,
+        11.63605844538967,
+        11.539571256689388,
+        11.477918018670207,
+        11.505843551957003,
+        11.473462271362383,
+        11.471363374428222,
+        11.48701634556947,
+        11.469821813854383,
+        11.468861798348943,
+        11.47436177435389,
+        11.464129954846223,
+        11.470560947357546,
+        11.475755622837221,
+        11.467919514903166,
+        11.4684999500991,
+        11.470522821970508,
+        11.475002891982687,
+        11.47167643826364,
+        11.468529291295049,
+        11.463310422251434,
+        11.466636236879605,
+        11.47115312879676,
+        11.4684831440874,
+        11.471404746982596,
+        11.473576364910748,
+        11.466618755937612,
+        11.46685174803411,
+        11.470807839038201,
+        11.471762348203061,
+        11.466159798835623,
+        11.468986251280649,
+        11.472778049638453,
+        11.470463604510156,
+        11.466784018635368,
+        11.471830331915509,
+        11.470940082174987,
+        11.470863036201422,
+        11.463379175878442,
+        11.470854268736556,
+        11.467735823529518,
+        11.464126979682524,
+        11.462677083810938,
+        11.461649559608327,
+        11.469228210147651
+      ]
+    },
+    "QNN": {
+      "name": "QNN (Quantum Neural Network)",
+      "accuracy": 0.43333333333333335,
+      "f1_macro": 0.34920634920634913,
+      "train_time_sec": 18.094560500001535,
+      "inference_time_ms": 178.53249999461696,
+      "num_qubits": 2,
+      "circuit_depth": 2,
+      "num_parameters": 8,
+      "ran_on_backend": true,
+      "is_variational": true,
+      "convergence": [
+        1.1703776041666667,
+        1.2251220703125,
+        1.0783203125,
+        1.0656901041666667,
+        1.0884033203125,
+        1.2269612630208333,
+        1.0855794270833334,
+        1.0666015625,
+        1.0629720052083333,
+        1.0546305338541666,
+        1.0920247395833333,
+        1.0411295572916666,
+        1.0710611979166667,
+        1.0179036458333333,
+        0.9794270833333333,
+        0.9190755208333333,
+        0.9092936197916667,
+        0.9128336588541667,
+        0.9461751302083333,
+        0.9017578125,
+        0.8795572916666666,
+        0.9105061848958333,
+        0.9242594401041667,
+        0.8957763671875,
+        0.8822184244791667
+      ]
+    },
+    "QFC": {
+      "name": "QFC (Quantum Fidelity, non-variational)",
+      "accuracy": 0.6333333333333333,
+      "f1_macro": 0.6359912854030502,
+      "train_time_sec": 5.830000736750662e-05,
+      "inference_time_ms": 20546.473700000206,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "ran_on_backend": true,
+      "is_variational": false,
+      "convergence": []
+    },
+    "QFE-LR": {
+      "name": "QFE-LR (Quantum Embedding + Linear, non-variational)",
+      "accuracy": 0.4666666666666667,
+      "f1_macro": 0.467304625199362,
+      "train_time_sec": 0.5595190999738406,
+      "inference_time_ms": 139.57880000816658,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "ran_on_backend": true,
+      "is_variational": false,
+      "convergence": []
+    }
+  },
+  "comparisons": [
+    {
+      "classical_model": "SVM",
+      "quantum_model": "QSVM",
+      "classical_accuracy": 0.9,
+      "quantum_accuracy": 0.8,
+      "accuracy_gap": 0.09999999999999998,
+      "quantum_better": false,
+      "classical_time_s": 0.003431300021475181,
+      "quantum_time_s": 68.10287729999982,
+      "time_ratio": 19847.543751280922
+    },
+    {
+      "classical_model": "kNN",
+      "quantum_model": "QkNN",
+      "classical_accuracy": 0.9,
+      "quantum_accuracy": 0.9333333333333333,
+      "accuracy_gap": 0.033333333333333326,
+      "quantum_better": true,
+      "classical_time_s": 0.0047158999950625,
+      "quantum_time_s": 6.099988240748644e-06,
+      "time_ratio": 0.0012934939772122542
+    },
+    {
+      "classical_model": "LogReg",
+      "quantum_model": "QCL",
+      "classical_accuracy": 0.9,
+      "quantum_accuracy": 0.5333333333333333,
+      "accuracy_gap": 0.3666666666666667,
+      "quantum_better": false,
+      "classical_time_s": 0.013083199999528006,
+      "quantum_time_s": 35.136455300002126,
+      "time_ratio": 2685.616309562624
+    },
+    {
+      "classical_model": "MLP",
+      "quantum_model": "VQC",
+      "classical_accuracy": 0.6666666666666666,
+      "quantum_accuracy": 0.5333333333333333,
+      "accuracy_gap": 0.1333333333333333,
+      "quantum_better": false,
+      "classical_time_s": 0.027281500020762905,
+      "quantum_time_s": 35.4242840000079,
+      "time_ratio": 1298.4727369480356
+    }
+  ],
+  "summary": {
+    "best_classical": "SVM (RBF Kernel)",
+    "best_classical_accuracy": 0.9,
+    "best_quantum": "QkNN (Quantum k=3)",
+    "best_quantum_accuracy": 0.9333333333333333,
+    "avg_classical_accuracy": 0.8416666666666667,
+    "avg_quantum_accuracy": 0.619047619047619,
+    "total_classical_time": 0.04851190003682859,
+    "total_quantum_time": 157.31776059998083
+  }
+}

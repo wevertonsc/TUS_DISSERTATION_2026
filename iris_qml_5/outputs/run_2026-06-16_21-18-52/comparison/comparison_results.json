@@ -1,0 +1,535 @@
+{
+  "meta": {
+    "framework": "Qiskit ML Comparison",
+    "dataset": "Iris",
+    "num_qubits": 2,
+    "classical_algorithms": [
+      "SVM",
+      "kNN",
+      "LogReg",
+      "MLP"
+    ],
+    "quantum_algorithms": [
+      "QSVM",
+      "QkNN",
+      "QCL",
+      "VQC",
+      "QNN",
+      "QFC",
+      "QFE-LR"
+    ],
+    "quantum_failed": {},
+    "execution": {
+      "label": "IBM:ibm_marrakesh",
+      "submitted_jobs": 33,
+      "submitted_circuits": 486,
+      "failed_jobs": 0,
+      "sample_job_ids": [
+        "d8oqvf29m3dc738p1ce0",
+        "d8oqvqi9m3dc738p1cug",
+        "d8or0568aqlc73egui70",
+        "d8or0e0q90bc73e6une0",
+        "d8or0km8aqlc73egujcg",
+        "d8or17gq90bc73e6uovg",
+        "d8or22m8aqlc73egul9g",
+        "d8or2868aqlc73eguli0",
+        "d8or2n68aqlc73egum70",
+        "d8or3euhm1is739mlq4g"
+      ],
+      "job_records": [
+        {
+          "idx": 1,
+          "t": 0.43850255012512207,
+          "n_circuits": 66,
+          "cumulative_circuits": 66,
+          "depth": 18,
+          "qubits": 156
+        },
+        {
+          "idx": 2,
+          "t": 46.98150825500488,
+          "n_circuits": 72,
+          "cumulative_circuits": 138,
+          "depth": 18,
+          "qubits": 156
+        },
+        {
+          "idx": 3,
+          "t": 88.50989437103271,
+          "n_circuits": 12,
+          "cumulative_circuits": 150,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 4,
+          "t": 124.75841975212097,
+          "n_circuits": 12,
+          "cumulative_circuits": 162,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 5,
+          "t": 150.70925974845886,
+          "n_circuits": 12,
+          "cumulative_circuits": 174,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 6,
+          "t": 227.07006859779358,
+          "n_circuits": 12,
+          "cumulative_circuits": 186,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 7,
+          "t": 335.026567697525,
+          "n_circuits": 12,
+          "cumulative_circuits": 198,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 8,
+          "t": 357.1346125602722,
+          "n_circuits": 12,
+          "cumulative_circuits": 210,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 9,
+          "t": 416.6529760360718,
+          "n_circuits": 12,
+          "cumulative_circuits": 222,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 10,
+          "t": 512.1254787445068,
+          "n_circuits": 12,
+          "cumulative_circuits": 234,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 11,
+          "t": 562.1475045681,
+          "n_circuits": 6,
+          "cumulative_circuits": 240,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 12,
+          "t": 653.7183287143707,
+          "n_circuits": 12,
+          "cumulative_circuits": 252,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 13,
+          "t": 762.41051197052,
+          "n_circuits": 12,
+          "cumulative_circuits": 264,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 14,
+          "t": 788.7851328849792,
+          "n_circuits": 12,
+          "cumulative_circuits": 276,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 15,
+          "t": 893.5164358615875,
+          "n_circuits": 12,
+          "cumulative_circuits": 288,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 16,
+          "t": 1736.2492690086365,
+          "n_circuits": 12,
+          "cumulative_circuits": 300,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 17,
+          "t": 1773.8812568187714,
+          "n_circuits": 12,
+          "cumulative_circuits": 312,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 18,
+          "t": 1822.9779012203217,
+          "n_circuits": 12,
+          "cumulative_circuits": 324,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 19,
+          "t": 1839.4135558605194,
+          "n_circuits": 12,
+          "cumulative_circuits": 336,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 20,
+          "t": 1861.0070214271545,
+          "n_circuits": 6,
+          "cumulative_circuits": 342,
+          "depth": 22,
+          "qubits": 156
+        },
+        {
+          "idx": 21,
+          "t": 1875.192189693451,
+          "n_circuits": 12,
+          "cumulative_circuits": 354,
+          "depth": 23,
+          "qubits": 156
+        },
+        {
+          "idx": 22,
+          "t": 1891.042737007141,
+          "n_circuits": 12,
+          "cumulative_circuits": 366,
+          "depth": 23,
+          "qubits": 156
+        },
+        {
+          "idx": 23,
+          "t": 1916.89630651474,
+          "n_circuits": 12,
+          "cumulative_circuits": 378,
+          "depth": 23,
+          "qubits": 156
+        },
+        {
+          "idx": 24,
+          "t": 1954.6374068260193,
+          "n_circuits": 12,
+          "cumulative_circuits": 390,
+          "depth": 23,
+          "qubits": 156
+        },
+        {
+          "idx": 25,
+          "t": 1982.9574851989746,
+          "n_circuits": 6,
+          "cumulative_circuits": 396,
+          "depth": 23,
+          "qubits": 156
+        },
+        {
+          "idx": 26,
+          "t": 2016.7744150161743,
+          "n_circuits": 12,
+          "cumulative_circuits": 408,
+          "depth": 18,
+          "qubits": 156
+        },
+        {
+          "idx": 27,
+          "t": 2042.6772050857544,
+          "n_circuits": 12,
+          "cumulative_circuits": 420,
+          "depth": 18,
+          "qubits": 156
+        },
+        {
+          "idx": 28,
+          "t": 2078.353331565857,
+          "n_circuits": 12,
+          "cumulative_circuits": 432,
+          "depth": 18,
+          "qubits": 156
+        },
+        {
+          "idx": 29,
+          "t": 2104.126932859421,
+          "n_circuits": 12,
+          "cumulative_circuits": 444,
+          "depth": 18,
+          "qubits": 156
+        },
+        {
+          "idx": 30,
+          "t": 2139.998937368393,
+          "n_circuits": 12,
+          "cumulative_circuits": 456,
+          "depth": 18,
+          "qubits": 156
+        },
+        {
+          "idx": 31,
+          "t": 2165.6073565483093,
+          "n_circuits": 12,
+          "cumulative_circuits": 468,
+          "depth": 18,
+          "qubits": 156
+        },
+        {
+          "idx": 32,
+          "t": 2204.0321333408356,
+          "n_circuits": 12,
+          "cumulative_circuits": 480,
+          "depth": 16,
+          "qubits": 156
+        },
+        {
+          "idx": 33,
+          "t": 2226.9599928855896,
+          "n_circuits": 6,
+          "cumulative_circuits": 486,
+          "depth": 16,
+          "qubits": 156
+        }
+      ],
+      "backend_label": "IBM Quantum (ibm_marrakesh)",
+      "is_hardware": true,
+      "is_simulator": false
+    }
+  },
+  "classical": {
+    "SVM": {
+      "name": "SVM (RBF Kernel)",
+      "accuracy": 0.6666666666666666,
+      "f1_macro": 0.5555555555555555,
+      "train_time_sec": 0.0012707999849226326,
+      "inference_time_ms": 0.24210000992752612,
+      "hyperparams": {
+        "kernel": "rbf",
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    },
+    "kNN": {
+      "name": "k-NN (k=5)",
+      "accuracy": 0.6666666666666666,
+      "f1_macro": 0.5555555555555555,
+      "train_time_sec": 0.0006855999818071723,
+      "inference_time_ms": 1.4429000148084015,
+      "hyperparams": {
+        "n_neighbors": 5,
+        "weights": "uniform",
+        "metric": "euclidean"
+      }
+    },
+    "LogReg": {
+      "name": "Logistic Regression",
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "train_time_sec": 0.0028068999818060547,
+      "inference_time_ms": 0.16369999502785504,
+      "hyperparams": {
+        "max_iter": 8,
+        "C": 1.0,
+        "solver": "lbfgs"
+      }
+    },
+    "MLP": {
+      "name": "MLP (64-32)",
+      "accuracy": 0.6666666666666666,
+      "f1_macro": 0.5555555555555555,
+      "train_time_sec": 0.008216199988964945,
+      "inference_time_ms": 0.2120999852195382,
+      "hyperparams": {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "activation": "relu",
+        "max_iter": 8
+      }
+    }
+  },
+  "quantum": {
+    "QSVM": {
+      "name": "QSVM (Quantum Kernel)",
+      "accuracy": 0.3333333333333333,
+      "f1_macro": 0.3333333333333333,
+      "train_time_sec": 46.66496819999884,
+      "inference_time_ms": 41687.23100001807,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "ran_on_backend": true,
+      "is_variational": false,
+      "convergence": []
+    },
+    "QkNN": {
+      "name": "QkNN (Quantum k=3)",
+      "accuracy": 0.6666666666666666,
+      "f1_macro": 0.5555555555555555,
+      "train_time_sec": 2.100015990436077e-06,
+      "inference_time_ms": 0.304899993352592,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "ran_on_backend": false,
+      "is_variational": false,
+      "convergence": []
+    },
+    "QCL": {
+      "name": "QCL (Quantum Circuit Learning)",
+      "accuracy": 0.3333333333333333,
+      "f1_macro": 0.27777777777777773,
+      "train_time_sec": 473.6897937999747,
+      "inference_time_ms": 91431.15930000204,
+      "num_qubits": 2,
+      "circuit_depth": 2,
+      "num_parameters": 4,
+      "ran_on_backend": true,
+      "is_variational": true,
+      "convergence": [
+        11.736944788832025,
+        11.747189640465352,
+        11.738875711208863,
+        11.682334167746781,
+        11.667276811791686,
+        11.654089871376131,
+        11.45802790554414,
+        11.699276174852907
+      ]
+    },
+    "VQC": {
+      "name": "VQC (Variational Quantum Classifier)",
+      "accuracy": 0.5,
+      "f1_macro": 0.38888888888888884,
+      "train_time_sec": 1207.306783500011,
+      "inference_time_ms": 14262.753999995766,
+      "num_qubits": 2,
+      "circuit_depth": 2,
+      "num_parameters": 4,
+      "ran_on_backend": true,
+      "is_variational": true,
+      "convergence": [
+        11.629963494894382,
+        11.673875493774835,
+        12.014869709858601,
+        11.612413179587678,
+        11.594192022433225,
+        11.351028471517031,
+        11.504345376439117,
+        11.423678538158429
+      ]
+    },
+    "QNN": {
+      "name": "QNN (Quantum Neural Network)",
+      "accuracy": 0.16666666666666666,
+      "f1_macro": 0.13333333333333333,
+      "train_time_sec": 107.79294250000385,
+      "inference_time_ms": 33783.233199996175,
+      "num_qubits": 2,
+      "circuit_depth": 2,
+      "num_parameters": 8,
+      "ran_on_backend": true,
+      "is_variational": true,
+      "convergence": [
+        1.2853190104166667,
+        1.3323567708333333,
+        1.26416015625,
+        1.240234375
+      ]
+    },
+    "QFC": {
+      "name": "QFC (Quantum Fidelity, non-variational)",
+      "accuracy": 0.3333333333333333,
+      "f1_macro": 0.3333333333333333,
+      "train_time_sec": 4.129999433644116e-05,
+      "inference_time_ms": 187259.5377000107,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "ran_on_backend": true,
+      "is_variational": false,
+      "convergence": []
+    },
+    "QFE-LR": {
+      "name": "QFE-LR (Quantum Embedding + Linear, non-variational)",
+      "accuracy": 0.16666666666666666,
+      "f1_macro": 0.1111111111111111,
+      "train_time_sec": 22.947426099999575,
+      "inference_time_ms": 36965.11859999737,
+      "num_qubits": 2,
+      "circuit_depth": 0,
+      "num_parameters": 0,
+      "ran_on_backend": true,
+      "is_variational": false,
+      "convergence": []
+    }
+  },
+  "comparisons": [
+    {
+      "classical_model": "SVM",
+      "quantum_model": "QSVM",
+      "classical_accuracy": 0.6666666666666666,
+      "quantum_accuracy": 0.3333333333333333,
+      "accuracy_gap": 0.3333333333333333,
+      "quantum_better": false,
+      "classical_time_s": 0.0012707999849226326,
+      "quantum_time_s": 46.66496819999884,
+      "time_ratio": 36720.938584870884
+    },
+    {
+      "classical_model": "kNN",
+      "quantum_model": "QkNN",
+      "classical_accuracy": 0.6666666666666666,
+      "quantum_accuracy": 0.6666666666666666,
+      "accuracy_gap": 0.0,
+      "quantum_better": false,
+      "classical_time_s": 0.0006855999818071723,
+      "quantum_time_s": 2.100015990436077e-06,
+      "time_ratio": 0.003063033906302983
+    },
+    {
+      "classical_model": "LogReg",
+      "quantum_model": "QCL",
+      "classical_accuracy": 1.0,
+      "quantum_accuracy": 0.3333333333333333,
+      "accuracy_gap": 0.6666666666666667,
+      "quantum_better": false,
+      "classical_time_s": 0.0028068999818060547,
+      "quantum_time_s": 473.6897937999747,
+      "time_ratio": 168759.05692057707
+    },
+    {
+      "classical_model": "MLP",
+      "quantum_model": "VQC",
+      "classical_accuracy": 0.6666666666666666,
+      "quantum_accuracy": 0.5,
+      "accuracy_gap": 0.16666666666666663,
+      "quantum_better": false,
+      "classical_time_s": 0.008216199988964945,
+      "quantum_time_s": 1207.306783500011,
+      "time_ratio": 146942.23425933238
+    }
+  ],
+  "summary": {
+    "best_classical": "Logistic Regression",
+    "best_classical_accuracy": 1.0,
+    "best_quantum": "QkNN (Quantum k=3)",
+    "best_quantum_accuracy": 0.6666666666666666,
+    "avg_classical_accuracy": 0.7499999999999999,
+    "avg_quantum_accuracy": 0.35714285714285715,
+    "total_classical_time": 0.012979499937500805,
+    "total_quantum_time": 1858.4019574999984
+  }
+}
